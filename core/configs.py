@@ -9,7 +9,7 @@ from typing import ClassVar
 
 class Settings(BaseSettings):
     API_V1_STR: str = '/api/v1'
-    DB_URL: str = "postgresql+asyncpg://postgres:150883@localhost:2345/faculdade"
+    DB_URL: str = "postgresql+asyncpg://apidb:150883@localhost:5432/faculdade"
     DBBaseModel: ClassVar[DeclarativeMeta] = declarative_base()
     TEMPLATES: ClassVar[Jinja2Templates] = Jinja2Templates(directory='templates')
     MEDIA: ClassVar[Path] = Path('media')
