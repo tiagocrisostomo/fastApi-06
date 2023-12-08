@@ -7,8 +7,6 @@ from fastapi.responses import JSONResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy import and_, or_
-
 
 from models.user_model import UserModel
 from schemas.user_schema import UserSchemaBase, UserSchameCreate, UserSchemaArtigos, UserSchemaUp
@@ -18,7 +16,6 @@ from core.auth import authenticate, create_access_token
 
 
 router = APIRouter()
-
 
 
 # GET Logado

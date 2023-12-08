@@ -25,19 +25,4 @@ if __name__ == '__main__':
         log_level='info',
         reload=True        
     )
-    
-    """ tiago
-        TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzAwNTcyMTU2LCJpYXQiOjE2OTk5NjczNTYsInN1YiI6IjUifQ.ogUBzT_Gb259qYr7bm4elNn6I3E-cFpINfNiwIo1b_Q
-        TIPO: bearer
-    """
-    
-    """ helio
-        TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzAwNTc2MDcxLCJpYXQiOjE2OTk5NzEyNzEsInN1YiI6IjYifQ.nEQDwIMhR4KYBwZohQxlxWjxdqXj8eNDlHztKSO0CEg
-        TIPO: bearer
-    """
-    
-    """ michael
-        TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzAwNzQ4MTQ0LCJpYXQiOjE3MDAxNDMzNDQsInN1YiI6IjgifQ.BcEdgLY-sCRMZzdaIe5YOljC2qBKeo4-XdqXqMbPhII
-        TIPO: bearer
-    """
-    
+        
